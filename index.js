@@ -16,6 +16,8 @@ document.addEventListener("DOMContentLoaded", () => {
         `
         document.getElementsByClassName("player-container")[0].append(newNode)
     }
+
+    findManchester()
 })
 
 
@@ -28,3 +30,12 @@ console.log("PLAYERS array looks like this:", PLAYERS)
 
 
 /***** Deliverable 4 *****/
+
+function findManchester() {
+    const players = document.querySelectorAll(".player")
+    for (player of players) {
+        if (player["data-number"] === 7) {
+            player.remove()
+        }
+    }
+}
