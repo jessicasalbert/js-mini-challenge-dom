@@ -36,7 +36,7 @@ Now that you have access to the `h1#header` element, use Javascript to change th
 
 **YOUR NOTES**
 ```
-
+Change style attribute to red
 ```
 
 ## Deliverable 3
