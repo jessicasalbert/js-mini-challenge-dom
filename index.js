@@ -2,6 +2,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const header = document.querySelector("#header")
     console.log("Here's your header:", header)
+    header.style.color = "red"
 })
 
 
