@@ -1,6 +1,9 @@
 /***** Deliverable 1 *****/
-const header = document.querySelector("#header")
-console.log("Here's your header:", header)
+document.addEventListener("DOMContentLoaded", () => {
+    const header = document.querySelector("#header")
+    console.log("Here's your header:", header)
+})
+
 
 
 /***** Deliverable 2 *****/
